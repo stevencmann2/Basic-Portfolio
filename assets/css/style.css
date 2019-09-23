@@ -4,6 +4,7 @@ body {
     background-image: url(../images/wallpaper.png);
     position: relative;
     
+    
 }
 
 .HWidth {
@@ -29,12 +30,13 @@ body {
 .name{ 
     float:left;
     margin: auto;
+    font-weight: bold;
    
 }
 
-.top-click li {
+.top-click {
     float: right;
-   
+    color: #f1f1f1;
     
 }
 
@@ -47,6 +49,7 @@ body {
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
+    color: #f1f1f1;
 }
 
 
@@ -90,9 +93,11 @@ body {
 .Footer {
     width:100%;
     background-color: #555555;
+    border-top: 8px solid #4aaaa5;
     padding: 25px 0px;
     position: fixed;
     bottom: 0;
     margin: auto;
+    text-align: center;
     
 }
