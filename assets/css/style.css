@@ -6,8 +6,11 @@ body {
     
 }
 
-
-
+.HWidth {
+    width:960px;
+    margin: auto;
+    
+}
 
 .sticky-top {
     font-family: 'Georgia', Times 'Times New Roman', Times, serif;
@@ -23,11 +26,10 @@ body {
     box-shadow: 3px 3px 3px rgba(0,0,0,.8)
 }
 
-.name{ float:left;
+.name{ 
+    float:left;
     margin: auto;
-    
-    
-    
+   
 }
 
 .top-click li {
@@ -43,8 +45,8 @@ body {
 
 .navlinks {
     display: inline-block;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -55,7 +57,7 @@ body {
 
 }
 
-#container-home {
+.container-home {
     background: #f1f1f1;
     padding-top: 30px;
     padding-left: 15px;
@@ -65,13 +67,13 @@ body {
 
 }
 
-#About {
+.content-header {
     margin-bottom: 10px;
     border-bottom: 5px solid black;
 }
 
 
-#profilepic {
+.profilepic {
     height: 30vh;
     float: left;    
     margin-right: 10px;
