@@ -6,19 +6,13 @@ body {
        
 }
 
-.HWidth {
-    width:960px;
-    margin: auto;
-    
-}
-
 .sticky-top {
     font-family: 'Georgia', Times 'Times New Roman', Times, serif;
     font-size: 25px;
     border-bottom: 5px;
     margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    display:block;
+    height: 70px;
     background: #555555;
     color: #f1f1f1;   
     position: fixed;
@@ -26,18 +20,53 @@ body {
     box-shadow: 3px 3px 3px rgba(0,0,0,.8)
 }
 
-.name{ 
-    float:left;
+.inside_header {
+    width: 960px;
     margin: auto;
+    height: 100%;
+    background-color: red;
+    
+}
+.namebox {
+    height: 100%;
+    background-color: #4aaaa5;
+    float: left;
+    display: table;
+    overflow: hidden;
+    text-align: center;
+}
+.name{  
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+
+.navigation {
+    list-style-type: none;
+    float: right;
+    height: 100%;
+    display: block;
    
 }
 
-.top-click {
-    float: right;
-    color: #f1f1f1;
+.navigation a{
+    height: 100%;
+    padding: 0px 20px;
     
 }
+
+.navigation li{
+    display: inline-block;
+    height: 100%;
+    color: #f1f1f1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.7em;
+}
+
+
 
 .top-click a:hover {
     background-color: aqua;
@@ -45,14 +74,7 @@ body {
     
 }
 
-.navlinks {
-    display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #f1f1f1;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 0.75em;
-}
+
 
 
 .wrapper {
