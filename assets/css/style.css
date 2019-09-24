@@ -31,14 +31,13 @@ body {
     height: 100%;
     background-color: #4aaaa5;
     float: left;
-    display: table;
+    display: block;
     overflow: hidden;
     text-align: center;
+    margin: auto;
 }
 .name{  
     height: 100%;
-    display: table-cell;
-    vertical-align: middle;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;  
 }
@@ -91,6 +90,10 @@ body {
     padding-right: 15px;
     padding-bottom: 30px;
     margin: auto;
+    margin-bottom: 200px;
+    border-style: ridge;
+    border-color: #555555;
+    border-width: 1px;
 
 }
 
@@ -137,4 +140,8 @@ p {
     line-height: 2;
     color: #555555;
     padding-top: 20px;
+}
+
+#port_pics{
+    overflow: hidden;
 }
