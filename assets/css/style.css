@@ -75,7 +75,7 @@ body {
 .navigation a:hover {
     background-color: #29a4ff;
     color: #f1f1f1;
-    
+
 
 }
 
@@ -134,30 +134,29 @@ p {
 }
 
 
-#image1{
+#image1 {
 
     display: block;
-    float:left;
+    float: left;
     width: 47%;
-    height: 250px; 
+    height: 250px;
     margin-bottom: 30px;
 
 }
 
-#image2{
+#image2 {
 
     display: block;
     float: right;
     width: 47%;
     height: 250px;
     margin-bottom: 30px
-
 }
 
-#image3{
+#image3 {
 
     display: block;
-    float:left;
+    float: left;
     width: 47%;
     height: 250px;
 
@@ -185,7 +184,7 @@ input {
 
 #Message {
     height: 200px;
-    
+
 }
 
 .clearfix:after {
@@ -206,6 +205,3 @@ input {
     text-align: center;
 
 }
-
-
-
