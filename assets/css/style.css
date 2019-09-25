@@ -29,7 +29,7 @@ body {
 
 .namebox {
     height: 100%;
-    background-color: #4aaaa5;
+    background-color: #29a4ff;
     float: left;
     display: block;
     overflow: hidden;
@@ -72,12 +72,12 @@ body {
 
 
 
-.top-click a:hover {
-    background-color: aqua;
+.navigation a:hover {
+    background-color: #29a4ff;
     color: #f1f1f1;
+    
 
 }
-
 
 
 
@@ -107,7 +107,7 @@ body {
     border-bottom: 5px solid #555555;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-size: 1.875em;
-    color: #4aaaa5;
+    color: #29a4ff;
     padding-bottom: 20px;
 
 }
@@ -128,9 +128,51 @@ p {
     padding-top: 20px;
 }
 
+
 #port_pics {
     overflow: hidden;
 }
+
+#image1{
+
+    display: block;
+    float:left;
+    width: 47%;
+    height: 250px; 
+    margin-bottom: 30px;
+
+}
+
+#image2{
+
+    display: block;
+    float: right;
+    width: 47%;
+    height: 250px;
+    margin-bottom: 30px
+
+}
+
+#image3{
+
+    display: block;
+    float:left;
+    width: 47%;
+    height: 250px;
+
+}
+
+#image4 {
+
+    display: block;
+    float: right;
+    width: 47%;
+    height: 250px;
+
+
+}
+
+
 
 
 input {
@@ -154,8 +196,9 @@ input {
 .Footer {
     width: 100%;
     background-color: #555555;
-    border-top: 8px solid #4aaaa5;
-    padding: 25px 0px;
+    border-top: 8px solid #29a4ff;
+    color: #f1f1f1;
+    padding: 10px 0px;
     position: fixed;
     bottom: 0;
     margin: auto;
